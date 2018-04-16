@@ -50,7 +50,7 @@ hash = {}
     results = {}
    while i < keys.length
     binding.pry
-    keys[i].merge!(data[i][keys[i][:first_name]])
+    results = keys[i].merge!(data[i][keys[i][:first_name]])
      i += 1
    end
  end
