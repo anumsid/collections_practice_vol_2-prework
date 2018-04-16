@@ -57,7 +57,7 @@ hash = {}
  end
 
 def find_cool(array)
-  array.select do |hash|
+  array.each do |hash|
     if hash.values == "cool"
     return true
   end
