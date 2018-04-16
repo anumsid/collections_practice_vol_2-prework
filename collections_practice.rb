@@ -53,4 +53,5 @@ hash = {}
     results = keys[i].merge!(data[i][keys[i][:first_name]])
      i += 1
    end
+   results
  end
