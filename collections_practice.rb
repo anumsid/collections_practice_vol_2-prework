@@ -61,4 +61,5 @@ def find_cool(array)
     if hash.values == "cool"
     return true
   end
+  end
 end
