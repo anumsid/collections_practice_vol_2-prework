@@ -60,5 +60,4 @@ def find_cool(array)
   array.select do |hash|
      hash.has_value?("cool")
     end
-  end
 end
