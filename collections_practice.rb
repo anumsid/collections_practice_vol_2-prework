@@ -49,7 +49,7 @@ hash = {}
     i = 0
    while i < keys.length
      binding.pry
-     keys[i].merge(data[i][keys[:first_name]])
+    keys[i].merge(data[i][keys[i][:first_name]])
      i += 1
    end
  end
