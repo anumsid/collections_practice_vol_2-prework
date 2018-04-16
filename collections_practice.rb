@@ -46,13 +46,13 @@ hash = {}
  # end
 
  def merge_data(keys, data)
-  #   i = 0
-  #   results = []
-  #  while i < keys.length
-  #   # binding.pry
-  #   results << keys[i].merge!(data[i][keys[i][:first_name]])
-  #    i += 1
-  #  end
-  #  results
-  
+    i = 0
+    results = []
+   while i < keys.length
+    # binding.pry
+    results << keys[i].merge!(data[0][keys[i][:first_name]])
+     i += 1
+   end
+   results
+
  end
