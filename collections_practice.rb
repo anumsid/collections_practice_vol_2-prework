@@ -48,7 +48,7 @@ hash = {}
  def merge_data(keys, data)
     i = 0
    while i < keys.length
-    #  binding.pry
+    #binding.pry
     keys[i].merge(data[i][keys[i][:first_name]])
      i += 1
    end
