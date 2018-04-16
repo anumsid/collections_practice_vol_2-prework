@@ -55,3 +55,7 @@ hash = {}
    end
    results
  end
+
+def find_cool(cool)
+
+end
