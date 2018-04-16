@@ -54,5 +54,4 @@ hash = {}
      i += 1
    end
    results
-
  end
