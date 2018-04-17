@@ -62,7 +62,7 @@ def find_cool(array)
     end
 end
 
-def organized_schools(schools)
+def organize_schools(schools)
   one_hash = {}
   schools.each do |name, location_hash|
     location_hash.each do |key_loc, val_loc|
