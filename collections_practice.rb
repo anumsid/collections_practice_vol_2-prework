@@ -61,3 +61,7 @@ def find_cool(array)
      hash.has_value?("cool")
     end
 end
+
+def method_name
+
+end
