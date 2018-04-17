@@ -62,6 +62,6 @@ def find_cool(array)
     end
 end
 
-def method_name
+def organized_schools()
 
 end
