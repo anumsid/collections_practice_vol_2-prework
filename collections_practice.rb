@@ -67,7 +67,7 @@ def organize_schools(schools)
   schools.each do |name, location_hash|
     location_hash.each do |key_loc, val_loc|
       if one_hash[val_loc] == nil
-        one_hash[val_loc] = name
+        one_hash[val_loc] = [name]
       else
         one_hash[val_loc] << name
       end
