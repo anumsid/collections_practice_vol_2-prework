@@ -70,7 +70,7 @@ def organized_schools(schools)
         one_hash[val_loc] = name
       end
     else
-      one_hash[val_loc] << name 
+      one_hash[val_loc] << name
   end
 end
 end
